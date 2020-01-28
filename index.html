@@ -1,56 +1,259 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+ <meta charset="utf-8">
+ <meta name="keywords" content="">
+ <meta name="description" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap"
+  rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel = "stylesheet"
+  type = "text/css"
+  href = "./assets/css/index.css" />
+
 </head>
 <body>
-    <link rel = "stylesheet"
-    type = "text/css"
-    href = "./assets/css/index.css" />
-
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap"
-    rel="stylesheet">
-
     <!-- header begins from here-->
 
     <header>
-        <div id="head_container">
+        <div class="head-container">
             <div>
-                <img src="./assets/images/cuda.svg" id="logo"  alt='logo'>
+                <img src="./assets/images/cuda.svg" class="logo"  alt='logo'>
             </div>
-            <div>
-                <a href=''>HOME</a>
-                <a href=''>ABOUT</a>
-                <a href=''>WORK</a>
-                <a href=''>BLOG</a>
-                <a href=''>CONTACT</a>
-            </div>
+            <nav>
+              <ul>
+                <li><a href='#'>HOME</a></li>
+                <li><a href='#'>ABOUT</a></li>
+                <li><a href='#'>WORK</a></li>
+                <li><a href='#'>BLOG</a></li>
+                <li><a href='#'>CONTACT</a></li>
+              </ul>
+            </nav>
         </div>
     </header>
 
     <!-- header ends here-->
-    <!-- first container --->
-    <div id="second_container">
+    <!-- first section --->
+
+    <div class="second-container">
       <h1>
         Hi there! We are the new kids on the block <br>and we build awesome websites and mobile apps.
       </h1>
-      <a id = "a_container2"href=''> WORK WITH US! </a>
+      <a class = "a-container2"href=''> WORK WITH US! </a>
     </div>
-    <!-- first container ends here --->
 
-    <!-- second container -->
-    <div id="third_container">
-    <h2>
-      SERVICES WE PROVIDE
-    </h2>
-    <p id="third_container_p">
-      We are working with both individuals and businesses from all over the globe <br>
-      to create awesome websites and applications.
-    </p>
-    <div id="third_inner_container">
-      <img src="" alt="branding">
-      <img src="" alt="design">
-      <img src="" alt="development">
-      <img src="" alt="rocket science">
+    <!-- first section ends here --->
+    <!-- second section -->
+
+    <div class="third-container">
+      <h2 class="services-we-provide">
+       SERVICES WE PROVIDE
+      </h2>
+      <img src='./assets/images/line1.svg' >
+      <p class="third-container-p">
+       We are working with both individuals and businesses from all over the globe <br>
+       to create awesome websites and applications.
+      </p>
+
+<!-- services container -->
+
+       <div class="third-inner-container">
+
+<!-- Branding -->
+
+        <div class="third-inner-container-services">
+         <img src="./assets/images/branding.svg" alt="branding" class="third-container-img">
+         <h4>
+           BRANDING
+         </h4>
+         <p>
+         Lorem ipsum dolor sit amet,
+         consectetuer adipiscing elit, sed diam nonummy nibh.
+         </p>
+        </div>
+
+<!-- Branding ends here -->
+<!-- Design -->
+
+      <div class="third-inner-container-services">
+       <img src="./assets/images/design.svg" alt="design" class="third-container-img">
+       <h4>
+         DESIGN
+       </h4>
+       <p>
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+       </p>
+      </div>
+
+<!-- Design ends here -->
+<!-- Development -->
+
+    <div class="third-inner-container-services">
+      <img src="./assets/images/development.svg" alt="development" class="third-container-img">
+      <h4>
+        DEVELOPMENT
+      </h4>
+      <p>
+        At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.
+      </p>
+    </div>
+
+<!-- Development ends here -->
+<!-- Rocket Science-->
+
+    <div class="third-inner-container-services">
+      <img src="./assets/images/rocket_science.svg" alt="rocket science" class="third-container-img" >
+      <h4>ROCKET SCIENCE</h4>
+      <p>
+        Et harum quidem rerum est et expedita distinctio. Nam libero tempore.
+      </p>
     </div>
     </div>
+
+<!-- services container ends here -->
+
+    </div>
+
+    <!-- second section ends here-->
+    <!-- third section starts here  -->
+
+    <div class="fourth-container">
+      <h2>
+        MEET OUR BEAUTIFUL TEAM
+      </h2>
+      <img src='./assets/images/line2.svg' >
+      <p>
+        We are a small team of designers and developers, who help brands with big ideas.
+      </p>
+
+<!-- team container -->
+      <div class="fourth-inner-container">
+
+<!-- first member -->
+
+        <div class="fourth-inner-container-team">
+          <img src='./assets/images/mugshot.svg' alt="mugshot" class="fourth-container-img">
+          <div class="fourth-container-bundle">
+          <h4>
+            ANNE HATHAWAY
+          </h4>
+          <p class="fourth-inner-container-team-designation">
+            CEO / Marketing Guru
+          </p>
+          </div>
+          <p class="fourth-inner-container-team-description">
+            Lorem ipsum dolor sit amet,
+            consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+            laoreet dolore magna.
+          </p>
+
+<!-- social media links start -->
+          <div class="social-tab">
+          <img class="social-icons" src="./assets/images/facebook.svg">
+          <img class="social-icons" src="./assets/images/twitter.svg">
+          <img class="social-icons" src="./assets/images/linkedin.svg">
+          <img class="social-icons" src="./assets/images/mail.svg">
+          </div>
+<!-- social media links end -->
+
+        </div>
+
+<!-- first member ends -->
+<!-- second memeber -->
+
+         <div class="fourth-inner-container-team">
+           <img src='./assets/images/mugshot.svg' alt="mugshot" class="fourth-container-img">
+           <div class="fourth-container-bundle">
+           <h4>
+             KATE UPTON
+           </h4>
+           <p class="fourth-inner-container-team-designation">
+             Creative Director
+           </p>
+          </div>
+           <p class="fourth-inner-container-team-description">
+             Duis aute irure dolor in in voluptate velit esse cillum
+             dolore fugiat nulla pariatur. Excepteur sint occaecat non diam proident.
+          </p>
+
+<!-- social media links start -->
+          <div class="social-tab">
+          <img class="social-icons" src="./assets/images/twitter.svg">
+          <img class="social-icons" src="./assets/images/linkedin.svg">
+          <img class="social-icons" src="./assets/images/mail.svg">
+          </div>
+<!-- social media links end -->
+
+        </div>
+
+<!-- second member ends -->
+<!-- third memeber -->
+
+        <div class="fourth-inner-container-team">
+          <img src='./assets/images/mugshot.svg' alt="mugshot" class="fourth-container-img">
+          <div class="fourth-container-bundle">
+          <h4>
+            OLIVIA WILDE
+          </h4>
+          <p class="fourth-inner-container-team-designation">
+            Lead Designer
+          </p>
+          </div>
+          <p class="fourth-inner-container-team-description">
+            Nemo enim ipsam voluptas sit aspernatur aut odit aut fugit,
+            sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.
+          </p>
+
+<!-- social media links start -->
+          <div class="social-tab">
+          <img class="social-icons" src="./assets/images/facebook.svg">
+          <img class="social-icons" src="./assets/images/twitter.svg">
+          <img class="social-icons" src="./assets/images/linkedin.svg">
+          <img class="social-icons" src="./assets/images/mail.svg">
+          </div>
+<!-- social media links end -->
+
+        </div>
+
+<!-- third member ends -->
+<!-- fourth memeber -->
+
+        <div class="fourth-inner-container-team">
+          <img src='./assets/images/mugshot.svg' alt="mugshot" class="fourth-container-img">
+          <div class="fourth-container-bundle">
+          <h4>
+            ASHLEY GREENE
+          </h4>
+          <p class="fourth-inner-container-team-designation">
+            SEO / Developer
+          </p>
+          </div>
+          <p class="fourth-inner-container-team-description">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+            doloremque laudantium, totam rem aperiam.
+          </p>
+
+<!-- social media links start -->
+          <div class="social-tab">
+          <img class="social-icons" src="./assets/images/facebook.svg">
+          <img class="social-icons" src="./assets/images/twitter.svg">
+          <img class="social-icons" src="./assets/images/mail.svg">
+          </div>
+<!-- social media links end -->
+
+        </div>
+
+<!-- fourth member ends -->
+<!-- team container ends here -->
+
+      </div>
+    </div>
+
+    <!-- third section ends here  -->
+    <!-- fourth section starts here-->
+    <div class="fifth-container"></div>
+
 </body>
