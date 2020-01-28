@@ -21,12 +21,12 @@ ul,li{
   display: inline;
   list-style-type: none;
 }
-a:hover, a:active {
+.navigation-menu:hover, .navigation-menu:active {
     background-color: indigo;
     color: white;
     border-radius: 3px;
 }
-a {
+.navigation-menu {
     background-color: purple;
     color: white;
     padding: 6px 10px;
@@ -34,7 +34,14 @@ a {
     text-decoration: none;
 
   }
-
+h2{
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+.container-p{
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
 /* first section */
 
 .second-container {
@@ -52,18 +59,21 @@ h1 {
   }
 .a-container2 {
     background-color: #eb7d4b;
+    color: white;
     border-radius: 3px;
-    padding: 10px 50px
+    padding: 10px 50px;
+    text-decoration: none;
   }
 
   /* first section ends here */
   /* second section */
+
 .third-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 50vh;
     background-color: #17c2a4;
+    color: white;
     justify-content: space-around;
     font-family: 'Titillium Web', sans-serif;
   }
@@ -77,11 +87,6 @@ h1 {
 .services-we-provide{
     color: white;
   }
-.third-container-p{
-    text-align: center;
-    color: white;
-    padding-bottom: 50px;
-  }
 .third-container-img{
     wdith: 100px;
     height: 100px;
@@ -94,7 +99,6 @@ h1 {
     color: white;
     align-items: center;
     width: 200px;
-    height: 25vh;
   }
 p{
     text-align: center;
@@ -159,3 +163,95 @@ p{
 
 /* third section ends here*/
 /* fourth section starts here*/
+
+.fifth-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: #3c4761;
+  font-family: 'Titillium Web', sans-serif;
+}
+.fifth-inner-container{
+  display: flex;
+  flex-direction: row;
+  width: 70vw;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.skill-container{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  width: 200px;
+}
+.skill-image{
+  wdith: 150px;
+  height: 150px;
+}
+
+/* fourth section ends here */
+/* fifth section starts here*/
+
+.sixth-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: #393939;
+  background-color: #ffdd99;
+  font-family: 'Titillium Web', sans-serif;
+}
+.portfolio-option:hover, .portfolio-option:active {
+    background-color: white;
+    color: #393939;
+    border-radius: 3px;
+}
+.portfolio-option{
+    background-color: #ebc985;
+    color: #393939;
+    border-radius: 2px;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+
+}
+.portfolio-navigation{
+  padding-bottom: 50px;
+}
+.sixth-inner-container{
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sixth-inner-container1{
+  display: flex;
+  flex-direction: row;
+  width: 70vw;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.sixth-inner-container2{
+  display: flex;
+  flex-direction: row;
+  width: 70vw;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.sixth-solo-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h5{
+  font-weight: 300
+}
+.more-products{
+  background-color: #17c2a4;
+  color: white;
+  border-radius: 3px;
+  padding: 10px 50px;
+  text-decoration: none
+}
+.sixth-lower-container{
+  padding-bottom: 50px;
+}
