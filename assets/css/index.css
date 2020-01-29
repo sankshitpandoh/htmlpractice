@@ -6,6 +6,9 @@
 header{
     background-color: purple;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+
 }
 .head-container{
     display: flex;
@@ -13,6 +16,7 @@ header{
     align-items: center;
     justify-content: space-between;
     height: 10vh;
+    width: 70vw;
     padding-left: 150px;
     padding-right: 150px;
     font-family: 'Titillium Web', sans-serif;
