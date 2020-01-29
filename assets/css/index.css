@@ -17,23 +17,22 @@ header{
     padding-right: 150px;
     font-family: 'Titillium Web', sans-serif;
 }
+.head-container a:hover, a:active{
+  background-color: indigo;
+  color: white;
+  border-radius: 3px;
+}
 ul,li{
   display: inline;
   list-style-type: none;
 }
-.navigation-menu:hover, .navigation-menu:active {
-    background-color: indigo;
-    color: white;
-    border-radius: 3px;
+.head-container a {
+  background-color: purple;
+  color: white;
+  padding: 6px 10px;
+  text-align: center;
+  text-decoration: none;
 }
-.navigation-menu {
-    background-color: purple;
-    color: white;
-    padding: 6px 10px;
-    text-align: center;
-    text-decoration: none;
-
-  }
 h2{
   padding-top: 50px;
   padding-bottom: 10px;
@@ -57,7 +56,7 @@ h2{
 h1 {
     text-align: center;
   }
-.a-container2 {
+.second-container a {
     background-color: #eb7d4b;
     color: white;
     border-radius: 3px;
@@ -83,9 +82,6 @@ h1 {
     width: 70vw;
     justify-content: space-between;
     padding-bottom: 30px
-  }
-.services-we-provide{
-    color: white;
   }
 .third-container-img{
     wdith: 100px;
@@ -243,17 +239,18 @@ p{
   align-items: center;
 }
 h5{
-  font-weight: 300
+  font-weight: 400;
 }
-.more-products{
+
+.sixth-lower-container{
+  padding-bottom: 50px;
+}
+.sixth-lower-container a{
   background-color: #17c2a4;
   color: white;
   border-radius: 3px;
   padding: 10px 50px;
   text-decoration: none
-}
-.sixth-lower-container{
-  padding-bottom: 50px;
 }
 
 /* fifth section ends here */
@@ -277,21 +274,115 @@ h5{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height:50vh
-}
-.text1{
-  text-align: left;
 }
 .seventh-solo-container{
-  width: 20vw;
+  width: 25vw;
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
+  padding-bottom: 100px;
 }
-.sevent-inner-nested-container{
+.seventh-solo-container img{
+  height: 100px;
+  width: 100px;
+}
+.seventh-inner-nested-container{
   display: flex;
   flex-direction: column;
+  width: 15vw;
+}
+.seventh-inner-nested-container i{
+  text-align: left;
+  padding-bottom: 20px;
+}
+.seventh-inner-nested-container h5{
+  color: #ffdd99;
+}
+
+/* sixth section ends here */
+/* seventh section starts here*/
+
+.eighth-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  background-color: #3c5499;
+  font-family: 'Titillium Web', sans-serif;
+}
+.eighth-container form{
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
   justify-content: space-between;
-  float: right;
+  align-items: center;
+}
+.upper-form-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:40vw;
+  padding-bottom: 10px;
+}
+.upper-form-section input{
+  background-color: #273a71;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  height:5vh;
+  width: 19vw;
+  padding-left: 10px;
+}
+.lower-form-section{
+  width: 40vw;
+  padding-bottom: 20px;
+}
+.lower-form-section textarea{
+  background-color: #273a71;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  height: 15vh;
+  width: 40vw;
+  padding-left: 10px;
+  font-family: 'Titillium Web', sans-serif;
+}
+::-webkit-input-placeholder {    /* chrome/safari*/
+ font-size: 14px;
+ color: white;
+ padding-left: 10px;
+}
+:-moz-placeholder {         /* older Firefox*/
+  font-size: 14px;
+  color: white;
+  padding-left: 100px;
+}
+::-moz-placeholder {         /* Firefox 19+ */
+  font-size: 14px;
+  color: white;
+  opacity: 1;
+}
+:-ms-input-placeholder {     /* Internet explorer*/
+  font-size: 14px;
+  color: white;
+  padding-left: 10px;
+}
+.send-message{
+  display: flex;
+  align-items: center;
+  background-color: #30bae7;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  padding: 10px 50px;
+  width: 11vw;
+  box-shadow: 0 3px #299ec5;
+}
+.eighth-container form{
+  padding-bottom: 40px;
+}
+/* COMMON CSS*/
+.container-heading{
+  letter-spacing: 4px;
 }
